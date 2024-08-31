@@ -1,0 +1,68 @@
+.sidebar{
+    background-color: rgb(19, 19, 19);
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 55px;
+    left: 0;
+    bottom: 0;
+    width: 72px;
+}
+.home-button{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    margin-top: 17px;
+    margin-bottom: 12px;
+    border: none;
+    background: transparent;
+}
+.shorts-button{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    margin-top: 17px;
+    margin-bottom: 12px;
+    background: transparent;
+    border: none;
+}
+.subscriptions{
+    position: relative;
+    height: 40px;
+    width: 40px;
+    margin-top: 17px;
+    margin-bottom: 12px;
+    border: none;
+    background: transparent;
+}
+.my-channel{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    margin-top: 17px;
+    margin-bottom: 12px;
+    border: none;
+    background: transparent;
+}
+.home-text{
+    color: white;
+    font-size: 10px;
+    margin-top: -3px;
+}
+.shorts-text{
+    color: white;
+    font-size: 10px;
+    margin-top: -1px;
+}
+.subs-text{
+    color: white;
+    font-size: 10px;
+    margin-top: -1px;
+    margin-left: -16px;
+}
+.you-text{
+    color: white;
+    font-size: 10px;
+    margin-top: -1px;
+}

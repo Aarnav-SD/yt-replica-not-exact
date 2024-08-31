@@ -1,0 +1,65 @@
+body{
+    background-color: rgb(19, 19, 19);
+    margin: 0;
+    padding-top: 120px;
+    padding-left: 90px;
+    padding-bottom: 3000px;
+}
+p{
+    margin: 0;
+    font-family: Roboto, Arial;
+}
+::-webkit-scrollbar{
+    margin: 0;
+    width: 5px;
+    background: hsl(0, 0%, 67%) transparent;
+}
+::-webkit-scrollbar-track{
+    background: transparent;
+}
+::-webkit-scrollbar-thumb{
+    border: none;
+    border-radius: 4px;
+    background:rgb(170, 167, 167);
+}
+::-webkit-scrollbar-button{
+    background: transparent;
+}
+progress[value] {
+    --color: red; /* the progress color */
+    --background: lightgrey; /* the background color */
+  
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: none;
+    width: auto;
+    margin: 0;
+    background: var(--background);
+    bottom: 1.19px;
+    left: 3.6px;
+    right: 3.4px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  progress[value]::-webkit-progress-bar {
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background: var(--background);
+  }
+  progress[value]::-webkit-progress-value {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background: var(--color);
+  }
+  progress[value]::-moz-progress-bar {
+    border-radius: 10px;
+    background: var(--color);
+  }
+input{
+    border: 1px solid rgb(58, 57, 57);
+}
+input:focus{
+    border: 1px solid rgb(48, 142, 250);
+    color:hsl(0, 0%, 67%);
+}
